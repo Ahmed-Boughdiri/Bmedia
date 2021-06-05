@@ -1,0 +1,24 @@
+
+.news-page-container {
+    height: 100vh;
+    width: 100vw;
+    background: #f4f4f4;
+    overflow-x: hidden;
+}
+.news-feed {
+    margin-top: 50px;
+}
+.news-loading-screen-container {
+    height: calc(100vh - 71px);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.news-page-error-screen-container {
+    height: calc(100vh - 71px);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
