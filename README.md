@@ -13,13 +13,13 @@ This project was made using the famous MERN stack (**M**ongoDB, **E**xpress.js, 
 
 ### <a id="podcasts"></a> Previewing Podcasts
 
-To preview a podcast on the app, you can simply go to the [Podcasts Page](http://localhost:3000/) and after choosing the podcast that you want to listen to, you need only to click on the play icon that appears on the bottom left side of the card.
+To preview a podcast on the app, you can simply go to the [Podcasts Page](https://bmedia.herokuapp.com/) and after choosing the podcast that you want to listen to, you need only to click on the play icon that appears on the bottom left side of the card.
 
 [![podcast-preview.gif](https://s9.gifyu.com/images/podcast-preview.gif)](https://gifyu.com/image/GeKu)
 
 ## <a id="#news"></a> Previewing News
 
-If you want to read a news article on the app, you can hit to the [News Page](http://localhost:3000/news) and after choosing the article that you want to read, just click on the more info link on the card, and enjoy reading.
+If you want to read a news article on the app, you can hit to the [News Page](https://bmedia.herokuapp.com/) and after choosing the article that you want to read, just click on the more info link on the card, and enjoy reading.
 
 [![news-preview.gif](https://s9.gifyu.com/images/news-preview.gif)](https://gifyu.com/image/GeKY)
 

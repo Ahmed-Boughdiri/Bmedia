@@ -4,7 +4,6 @@ import axios from "axios";
 export default async function(query: String) {
     try {
         const req = await axios.post("https://bmedia-backend.herokuapp.com/graphql", { query });
-        console.log("Request: ", req);
         const res = await req.data;
         return {
             data: res.data,
