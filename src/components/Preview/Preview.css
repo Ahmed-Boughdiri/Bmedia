@@ -1,0 +1,39 @@
+
+.preview-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+.preview-card {
+    width: 97%;
+    max-width: 800px;
+    height: 500px;
+    background-color: #fff;
+}
+.preview-card>iframe {
+    height: 100%;
+    width: 100%;
+}
+.preview-cancel-icon-container {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.preview-cancel-icon-container>img {
+    height: 22px;
+    width: 22px;
+    cursor: pointer;
+}

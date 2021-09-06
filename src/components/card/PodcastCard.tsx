@@ -5,11 +5,13 @@ import { traitWord } from "utils";
 const PodcastCard:React.FC<{
     title: String,
     description: String,
-    thumbnail: String
+    thumbnail: String,
+    onClick: () => void
 }> = ({
     title,
     description,
-    thumbnail
+    thumbnail,
+    onClick
 }) =>(
     <div className="property-card">
         <div>
@@ -25,8 +27,15 @@ const PodcastCard:React.FC<{
             <p>{ traitWord(description, 130) }</p>
         </div>
         <div>
-            <div className="property-play-icons">
-                <img src={theme.icons.play} alt="play" />
+            <div 
+                className="property-play-icons"
+                
+            >
+                <img 
+                    src={theme.icons.play} 
+                    alt="play"
+                    onClick={onClick} 
+                />
             </div>
         </div>
     </div>

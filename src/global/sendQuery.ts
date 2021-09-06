@@ -1,8 +1,9 @@
 import axios from "axios";
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default async function(query: String) {
     try {
-        const req = await axios.post("http://localhost:5000/graphql", { query });
+        const req = await axios.post("https://bmedia-backend.herokuapp.com/graphql", { query });
         console.log("Request: ", req);
         const res = await req.data;
         return {

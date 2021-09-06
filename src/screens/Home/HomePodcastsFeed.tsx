@@ -7,10 +7,12 @@ import ErrorScreen from "./ErrorScreen";
 
 const PodcastsFeed:React.FC<{ 
     podcasts: Podcast[], 
-    error: String 
+    error: String,
+    onPodcastClick: (link: String) => void 
 }> = ({ 
     podcasts, 
-    error 
+    error,
+    onPodcastClick
 }) =>(
     <>
         {
@@ -29,6 +31,7 @@ const PodcastsFeed:React.FC<{
                                     title={podcast.title}
                                     thumbnail={podcast.thumbnail}
                                     description={podcast.description}
+                                    onClick={() => onPodcastClick(podcast.link)}
                                 />
                             ))
                         }
@@ -39,7 +42,10 @@ const PodcastsFeed:React.FC<{
     </>
 )
 
-const HomePodcastsFeed = () =>{
+const HomePodcastsFeed:React.FC<{ 
+    onPodcastClick: 
+        (link: String) => void 
+}> = ({ onPodcastClick }) =>{
     const { 
         podcasts, 
         error,
@@ -52,7 +58,8 @@ const HomePodcastsFeed = () =>{
                 <LoadingScreen /> : 
                 <PodcastsFeed 
                     podcasts={podcasts}  
-                    error={error} 
+                    error={error}
+                    onPodcastClick={onPodcastClick} 
                 />
             }
         </>

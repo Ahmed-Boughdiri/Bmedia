@@ -1,46 +1,33 @@
-# Getting Started with Create React App
+# Bmedia
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Intorduction:
+This application is a combination of both, a news app and also a podcast app, basically the idea of this project is to provide ap space for people who wants to educate themselves, by providing them articles to read and to discover the latest news, and also the newest podcasts available.
 
-## Available Scripts
+## Technical Insight:
+This project was made using the famous MERN stack (**M**ongoDB, **E**xpress.js, **R**eactJS, **N**ode.js), and it heavily relies on the GraphQL APIs, and it took about 10 days to complete the whole project (Frontend + Backend).
 
-In the project directory, you can run:
+## Features:
 
-### `yarn start`
+- [Previewing Podcasts](#podcasts)
+- [Previewing News](#news)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### <a id="podcasts"></a> Previewing Podcasts
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+To preview a podcast on the app, you can simply go to the [Podcasts Page](http://localhost:3000/) and after choosing the podcast that you want to listen to, you need only to click on the play icon that appears on the bottom left side of the card.
 
-### `yarn test`
+[![podcast-preview.gif](https://s9.gifyu.com/images/podcast-preview.gif)](https://gifyu.com/image/GeKu)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## <a id="#news"></a> Previewing News
 
-### `yarn build`
+If you want to read a news article on the app, you can hit to the [News Page](http://localhost:3000/news) and after choosing the article that you want to read, just click on the more info link on the card, and enjoy reading.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[![news-preview.gif](https://s9.gifyu.com/images/news-preview.gif)](https://gifyu.com/image/GeKY)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Credit
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project is fully developed by: Ahmed Boughdiri
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Twitter: @Ahmed-Boughdiri  
+Medium: Ahmed-Boughdiri  
+Portfolio: https://ahmedboughdiri.ml/  
+GitHub: @Ahmed-Boughdiri  

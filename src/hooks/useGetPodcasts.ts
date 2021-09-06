@@ -11,10 +11,11 @@ const useGetPodcasts = () =>{
         const { error, data } = await sendQuery(`
             query {
                 podcast {
-                title,
-                description,
-                thumbnail,
-                releaseTime
+                    title,
+                    description,
+                    thumbnail,
+                    releaseTime,
+                    link
                 }
             }
         `);

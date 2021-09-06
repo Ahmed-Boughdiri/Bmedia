@@ -65,6 +65,7 @@
 .property-play-icons img{
     height: 100%;
     width: 100%;
+    cursor: pointer;
 }
 .property-card:hover .property-description{
     height: 0em;

@@ -7,14 +7,16 @@ const Index:React.FC<{
     description?: String,
     thumbnail?: String,
     author?: String,
-    url?: String
+    url?: String,
+    onClick?: () => void
 }> = ({ 
     type,
     title="",
     thumbnail="",
     description="",
     author="",
-    url=""
+    url="",
+    onClick = () => console.log("") 
 }) =>(
     <>
         {
@@ -23,6 +25,7 @@ const Index:React.FC<{
                     title={title}
                     thumbnail={thumbnail}
                     description={description}
+                    onClick={onClick}
                 />
             )
         }

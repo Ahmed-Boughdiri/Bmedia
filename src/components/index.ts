@@ -9,6 +9,7 @@ import Input from "./Input";
 import TextArea from "./TextArea";
 import Loading from "./loading";
 import Alert from "./alert";
+import Preiview from "./Preview/Preview";
 
 export {
     NavBar,
@@ -21,5 +22,6 @@ export {
     Input,
     TextArea,
     Loading,
-    Alert
+    Alert,
+    Preiview
 }
