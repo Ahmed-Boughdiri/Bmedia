@@ -1,7 +1,7 @@
 # Bmedia
 
 ## Intorduction:
-This application is a combination of both, a news app and also a podcast app, basically the idea of this project is to provide ap space for people who wants to educate themselves, by providing them articles to read and to discover the latest news, and also the newest podcasts available.
+This application is a combination of both, a news app and also a podcast app, basically, the idea of this project is to provide ap space for people who want to educate themselves, by providing them articles to read and to discover the latest news, and also the newest podcasts available.
 
 ## Technical Insight:
 This project was made using the famous MERN stack (**M**ongoDB, **E**xpress.js, **R**eactJS, **N**ode.js), and it heavily relies on the GraphQL APIs, and it took about 10 days to complete the whole project (Frontend + Backend).
@@ -27,7 +27,7 @@ If you want to read a news article on the app, you can hit to the [News Page](ht
 
 This project is fully developed by: Ahmed Boughdiri
 
-Twitter: @Ahmed-Boughdiri  
-Medium: Ahmed-Boughdiri  
-Portfolio: https://ahmedboughdiri.ml/  
-GitHub: @Ahmed-Boughdiri  
+Twitter: [@Ahmed-Boughdiri](https://twitter.com/BoughdiriAhmed)  
+Medium: [Ahmed-Boughdiri](https://ahmedboughdiri2020.medium.com/)  
+Portfolio: https://www.ahmedboughdiri.ml/  
+GitHub: [@Ahmed-Boughdiri](https://github.com/Ahmed-Boughdiri)  
